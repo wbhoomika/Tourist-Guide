@@ -1,0 +1,84 @@
+body{
+    font-family: 'Andika New Basic', sans-serif; 
+}
+/* NOT IN THE BEG### */
+/* Utility  classes (Can be applied anywhere and have specific work)*/
+.img-responsive{
+    max-width: 100%;
+}
+
+/* .xyz are selectors */
+
+.bg-img{
+    background-image: url(1.png);
+    /* Go and check the image */
+    /* Check  img is not proper*/
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    /* vh = Viewport Height = Screen Height */
+    /* Go to normalizer css, It makes the style for the website consitant to all browsers */
+}
+
+.mainWrapperr{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* Go and check the websitw now */
+    transform: translate(-50%, -50%);
+    /* Google fonts */
+}
+
+.mainWrapperr h1{
+    /* to select h1 tag of main wrapper */
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.form_place{
+    text-align: center;
+}
+
+.form_place .place{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    /* Go and check */
+}
+
+.form_place .submit_button{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    /* Check */
+    background-color: darkgrey;
+    /* Check */
+    border: none;
+    margin-top: 1rem;
+    /* Margin top left right short cut-  margin: 1rem auto 0rem;
+    margin: top left-right bottom
+    NOW YOU DELETE OTHER MARGINS*/
+}
+
+
+/* Places Section  */
+.place {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Show in html all the class of this section is same */
+
+.place_list{
+    float: left;
+    /* Float bcz it should not overlap 
+    Check now then reslove
+    */
+    width: 32%;
+    /* Still this problem is there, now go to top img responsive### */
+    /* Check- no spaces */
+    margin-left: .5rem;
+    margin-top: 3rem;
+}
