@@ -4,4 +4,4 @@ Website developed while taking a live session for Developer Students Club's 30 D
 
 Check for working website: https://wbhoomika.github.io/Tourist-Guide/
 
-<img src="https://github.com/wbhoomika/Tourist-Guide/blob/main/1.png"> 
+<img src="https://github.com/wbhoomika/Tourist-Guide/blob/main/Poster.jpeg" > 
